@@ -1,0 +1,12 @@
+services:
+  app:
+    build: .
+    image: tileugabyl-laura-devops
+    container_name: tileugabyl-laura-container
+    ports:
+      - "8080:8080"
+    environment:
+      STUDENT_NAME: Laura
+      STUDENT_SURNAME: Tileugabyl
+      STUDENT_GROUP: IT2-2311
+      STUDENT_ID: "41586"
